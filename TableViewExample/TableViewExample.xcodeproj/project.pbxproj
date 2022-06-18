@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5218A4E4285DE465004359AF /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218A4E2285DE465004359AF /* CustomTableViewCell.swift */; };
+		5218A4E5285DE465004359AF /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5218A4E3285DE465004359AF /* CustomTableViewCell.xib */; };
 		52EA3FF7285609300085B668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EA3FF6285609300085B668 /* AppDelegate.swift */; };
 		52EA3FF9285609300085B668 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EA3FF8285609300085B668 /* SceneDelegate.swift */; };
 		52EA3FFB285609300085B668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EA3FFA285609300085B668 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5218A4E2285DE465004359AF /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		5218A4E3285DE465004359AF /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		52EA3FF3285609300085B668 /* TableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EA3FF6285609300085B668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52EA3FF8285609300085B668 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 			children = (
 				52EA3FF6285609300085B668 /* AppDelegate.swift */,
 				52EA3FF8285609300085B668 /* SceneDelegate.swift */,
+				5218A4E2285DE465004359AF /* CustomTableViewCell.swift */,
+				5218A4E3285DE465004359AF /* CustomTableViewCell.xib */,
 				52EA3FFA285609300085B668 /* ViewController.swift */,
 				52EA3FFC285609300085B668 /* Main.storyboard */,
 				52EA3FFF285609310085B668 /* Assets.xcassets */,
@@ -127,6 +133,7 @@
 			files = (
 				52EA4003285609310085B668 /* LaunchScreen.storyboard in Resources */,
 				52EA4000285609310085B668 /* Assets.xcassets in Resources */,
+				5218A4E5285DE465004359AF /* CustomTableViewCell.xib in Resources */,
 				52EA3FFE285609300085B668 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				52EA3FFB285609300085B668 /* ViewController.swift in Sources */,
 				52EA3FF7285609300085B668 /* AppDelegate.swift in Sources */,
+				5218A4E4285DE465004359AF /* CustomTableViewCell.swift in Sources */,
 				52EA3FF9285609300085B668 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
